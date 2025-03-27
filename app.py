@@ -383,6 +383,6 @@ if __name__ == '__main__':
     if not os.path.exists('reports'):
         os.makedirs('reports')
         
-    app.run(debug=True)
+    app.run(port=8080)
 
 
